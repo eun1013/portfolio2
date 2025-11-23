@@ -1,0 +1,57 @@
+.aboutme {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-primary);
+    padding: 10rem 5rem;
+    
+    .aboutme-img {
+        width: 55%;
+        height: auto;
+        margin-left: 3rem;
+    }
+
+    .aboutme-wrap {
+        width: 100%;
+        margin: 0 auto;
+        @include flex-layout(row, space-between,start);
+        color: var(--color-sub);
+
+        .about-keyword {
+            padding: 2rem 5rem;
+            flex: 1;
+            li {
+                @include font-h4;
+                padding: 1rem 1.7rem;
+            }
+
+            hr {
+                width: 80%;
+                border: dashed;
+                color: var(--color-sub);
+            }
+        }
+    }
+
+    .img-wrap {
+        flex: 1;
+        @include flex-layout(column);
+        margin-left: 10rem;
+        padding-bottom: 10rem;
+        gap: 5rem;
+        height: 38rem;
+        .img-se {
+            width: auto;
+            height: 38rem;
+            &:hover{
+                scale: 1.1;
+                transition: all 0.3s ease;
+                cursor: pointer;
+            }
+        }
+
+        .about-me-info {
+            @include font-h4;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "main_project_1": {
+    "overview": {
+      "title": "OVERVIEW",
+      "image_file": "/images/overview/images05.png",
+      "site": "https://eun1013.github.io/sodamshop/",
+      "sections": [
+        {
+          "title": "프로젝트 목표",
+          "content": "소담상점은 React를 기반으로 감성적이면서도 직관적인 UI/UX를 구현하는 것을 목표로 합니다."
+        },
+        {
+          "title": "UI 디자인 방식",
+          "content": "Figma를 이용한 디자인 시스템 구축 후 코드 구현"
+        },
+        {
+          "title": "레이아웃 제작 방식",
+          "content": "React 컴포넌트 기반으로 SCSS를 활용해 모듈화된 스타일링과 그리드 기반의 반응형 레이아웃을 구현하는 방식으로 제작"
+        },
+        {
+          "title": "내가 맡은 역할 (문서 담당)",
+          "content": [
+            "·  GitHub에서 기능별 브랜치 전략을 세우고, Pull Request 리뷰 및 병합을 담당하였습니다.",
+            "·  팀원들의 작업 충돌 시 발생하는 충돌을 해결하고 코드 정리를 통해 유지보수성을 높였습니다.",
+            "·  상품 이미지 클릭 시 상세 팝업 화면 표시 및 상세 페이지로의 부드러운 연결 기능을 개발하여 사용자 경험을 크게 향상시켰습니다."
+          ]
+        }
+      ]
+    },
+    "design_system": {
+      "title": "DESIGN SYSTEM",
+      "sections": [
+        {
+          "subtitle": "Color Styles",
+          "colors": [
+            "#B9A171",
+            "#E3D4B6",
+            "#F5F0E5",
+            "#404030",
+            "#FFFFFF"
+          ],
+          "description": "전체 컬러는 1인 가구의 감성적인 주거 공간을 연출할 수 있도록, 자연에서 영감을 받은 톤으로 구성했습니다."
+        },
+        {
+          "subtitle": "Font Styles",
+          "fonts": [
+            {
+              "name": "한글 폰트 / Inter",
+              "name2": "영문 폰트 / Poppins",
+              "description": "한글은 가독성과 조형미를 모두 고려했습니다. 한글과 영문의 균형이 잘 맞는 산세리프 계열로 사용했습니다."
+            }
+          ]
+        }
+      ]
+    },
+    "user_flow": {
+      "title": "USER FLOW",
+      "image_file": "/images/overview/user02.png",
+      "description": "홈 화면 → 상품 리스트 → 상품 상세 페이지 → 장바구니 → 결제 화면, 그리고 인스타그램 연동 기능을 포함한 사용자 흐름 다이어그램"
+    },
+    "retrospective": {
+      "title": "회고",
+      "sections": [
+        {
+          "subtitle": "어려웠던 점",
+          "content": "프로젝트를 수행하고, 구문 간 범위 축소와 축소 방향에 대해 잠시 차이를 보였으나 기능이 변형되지 않도록 프로젝트를 재정비하는 과정을 거쳤습니다."
+        },
+        {
+          "subtitle": "해결 방법",
+          "content": "모든 기능을 구현하는 대신 핵심 기능 하나에 집중하여 디자인 구현의 완성도를 높이는 방향으로 조정하였습니다."
+        },
+        {
+          "subtitle": "리팩토링 포인트",
+          "content": [
+            "기획 단계에서 기능성과 우선순위를 설정하는 것이 중요하다는 점을 배웠습니다.",
+            "앞으로는 핵심 기능 선정 후 세부 목표를 설정하는 방법을 사용하겠습니다."
+          ]
+        }
+      ]
+    }
+  }
+}

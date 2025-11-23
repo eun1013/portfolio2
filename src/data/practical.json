@@ -1,0 +1,115 @@
+{
+    "projects": [
+        {
+            "title": "Fashion Grid Gallery",
+            "site":"https://eun1013.github.io/grid/",
+            "image": "/images/practical/practical01.png",
+            "alt":"Fashion Grid Gallery 이미지",
+            "features": [
+                "CSS 그리드 레이아웃 시스템 활용",
+                "이미지 기울기 효과 (Transform)"
+            ],
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS"
+            ]
+        },
+        {
+            "title": "BlueProject",
+            "site":"https://eun1013.github.io/blueProject/",
+            "image": "/images/practical/practical02.png",
+            "alt":"BlueProject 홈페이지 이미지",
+            "features": [
+                "GSAP 기반의 스크롤 인터랙션",
+                "콘텐츠의 동적 등장 효과"
+            ],
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS",
+                "GSAP"
+            ]
+        },
+        {
+            "title": "ABOUT ME",
+            "site" :"https://eun1013.github.io/Aboutme/",
+            "image": "/images/practical/practical03.png",
+            "alt":"ABOUT ME 제작 이미지",
+            "features": [
+                "JavaScript를 활용하여 구현된","'자동 이미지 슬라이드(캐러셀)’"
+            ],
+            "skills": [
+                "HTML",
+                "CSS",
+                "JS"
+            ]
+        },
+        {
+            "title": "온라인 도서 상세페이지 UI 구현",
+            "site":"https://eun1013.github.io/bookstore/",
+            "image": "/images/practical/practical04.png",
+            "alt":"온라인 도서 상세페이지 UI 구현 이미지",
+            "features": [
+                "인터랙티브 3D 도서 탐색"
+            ],
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Dcodlab 홈페이지 제작",
+            "site":"https://eun1013.github.io/blog-style/",
+            "image": "/images/practical/practical05.png",
+            "alt":"Dcodlab 홈페이지 이미지",
+            "features": [
+                "메인 배너 영역의 '동영상 자동 재생 및 반복' 기능"
+            ],
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "INDIGO 홈페이지 제작",
+            "site":"https://eun1013.github.io/response/",
+            "image": "/images/practical/practical06.png",
+            "alt":"INDIGO 홈페이지 이미지",
+            "features": [
+                "반응형 웹 기반의 그리드 레이아웃",
+                "실제 지도(Map API) 연동 및 위치 정보 제공"
+            ],
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "LOGGER 홈페이지 제작",
+            "site":"https://eun1013.github.io/logger/INDEX.html",
+            "image": "/images/practical/practical07.png",
+            "alt":"LOGGER 홈페이지 이미지",
+            "features": [
+                "LOGGER 서비스가 제공하고자 하는 가장", "큰 '가치'나 '혜택'을 어필하는 랜딩 페이지"
+            ],
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "Timeless Treasures",
+            "site":"https://eun1013.github.io/project/",
+            "image": "/images/practical/practical08.png",
+            "alt":"Timeless Treasures 홈페이지 이미지",
+            "features": [
+                "따뜻하고 모바일 우선 반응형 디자인과 이미지 중심의 직관적 UI/UX로 제품의 따뜻하고 우아한 브랜드 아이덴티티를 시각화한 웹사이트"
+            ],
+            "skills": [
+                "HTML",
+                "CSS"
+            ]
+        }
+    ]
+}

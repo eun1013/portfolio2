@@ -1,0 +1,50 @@
+{
+  "mainTitle": "Clonecoding",
+  "mainDescription": "실무에서 널리 활용되는 사용자 인터페이스를 직접 구현함으로써, 프론트엔드 구조적 이해와 사용자 경험 흐름에 대한 감각을 체득하고자 하였습니다. 단순한 모방을 넘어, 실제 서비스를 코드로 해석하고 재구성하는 과정을 통해 개발 역량을 더욱 견고히 다질 수 있었습니다.",
+  "projects": [
+    {
+      "id": 1,
+      "num": "01",
+      "title": "넷플릭스 클론 사이트",
+      "description": "React 라이브러리 활용, 오픈 API활용",
+      "image": "/images/Clone/clone01.png",
+      "links": {
+        "github": "https://github.com/eun1013/netflix",
+        "site": "https://eun1013.github.io/netflix/"
+      }
+    },
+    {
+      "id": 2,
+      "num": "02",
+      "title": "Momentum 클론",
+      "description": "날씨 API 활용, 다크모드, 라이트모드",
+      "image": "/images/Clone/clone02.png",
+      "links": {
+        "github": "https://github.com/eun1013/myday",
+        "site": "https://eun1013.github.io/myday/"
+      }
+    },
+    {
+      "id": 3,
+      "num": "03",
+      "title": "에어비앤비 클론 사이트",
+      "description": "반응형, UI 디자인 재현",
+      "image": "/images/Clone/clone03.png",
+      "links": {
+        "github": "https://github.com/eun1013/eun1013.github.io/tree/main/airbnb",
+        "site": "https://eun1013.github.io/airbnb/index.html"
+      }
+    },
+    {
+      "id": 4,
+      "num": "04",
+      "title": "TESLA 클론 사이트",
+      "description": "반응형, UI디자인 재현",
+      "image": "/images/Clone/clone04.png",
+      "links": {
+        "github": "https://github.com/eun1013/eun1013.github.io/tree/main/tesla",
+        "site": "https://eun1013.github.io/tesla/index.html"
+      }
+    }
+  ]
+}

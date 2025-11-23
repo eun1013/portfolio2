@@ -1,0 +1,133 @@
+.clone {
+    width: 100%;
+    height: 100vh;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    padding-bottom: 0.1rem;
+
+    .clone-logr-wrap {
+        width: 100%;
+        @include flex-layout(column,center,left);
+        gap: 3rem;
+        padding: 1rem 0;
+        padding-top: 2rem;
+
+        .clone-logo {
+            width: 45%;
+            margin-left: 7rem;
+        }
+    }
+
+    h1 {
+        @include font-h1;
+        color: var(--color-sub);
+        padding: 3rem;
+    }
+
+    .clone-des {
+        padding-left: 7rem;
+        word-break: keep-all;
+        width: 68%;
+        @include font-body-s;
+        color: var(--color-sub);
+    }
+
+    .projects-list {
+        width: 100%;
+        padding: 0 4rem;
+        @include flex-layout;
+        margin-top: 4rem;
+
+        .swiper-button-prev {
+            padding-left: 1rem;
+            color: var(--color-sub);
+        }
+
+        .swiper-button-next {
+            padding-right: 1rem;
+            color: var(--color-sub);
+        }
+
+        .swiper-pagination {
+            bottom: 0.5
+        }
+
+        .project-card {
+            text-align: center;
+
+            .card-name {
+                width: 100%;
+                @include flex-layout(row, left, flex-start);
+                color: var(--color-sub);
+                gap: 1.3rem;
+                padding-left: 3rem;
+
+                h2 {
+                    font-size: 8rem;
+                    font-weight: 900;
+                    padding-left: 1rem;
+                }
+
+                h3 {
+                    @include font-h4;
+                    padding-top: 1.2rem;
+                    text-align: left;
+                }
+
+                p {
+                    width: 100%;
+                    font-size: 2.2rem;
+                    padding-top: 0.6rem;
+                    text-align: left;
+                }
+            }
+        }
+
+        .card {
+            position: relative;
+
+            img {
+                width: 45rem;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    filter: brightness(65%);
+                    scale: 1.05;
+                }
+            }
+
+            .overlay-btn {
+                width: 15rem;
+                height: 5rem;
+                border-radius: 1rem;
+                @include font-body;
+                font-weight: 900;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: rgba(255, 255, 255, 1);
+                color: var(--color-primary);
+                opacity: 0;
+                cursor: pointer;
+            }
+
+            &.card:hover .overlay-btn {
+                opacity: 1;
+
+            }
+        }
+
+        .project-links {
+            @include flex-layout;
+            gap: 2rem;
+            padding-top: 2rem;
+
+            button {
+                @include btn3;
+                margin: 0 0.5rem;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.projects {
+  width: 100%;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  padding-bottom: 0.1rem;
+
+  .projects-logo-wrap {
+    width: 100%;
+    @include flex-layout(row, right);
+    padding-top: 1rem;
+
+    .projects-logo {
+      width: 45%;
+      margin-right: 2rem;
+    }
+  }
+
+  .projects-main {
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+    width: 100%;
+    padding-left: 10rem;
+    @include flex-layout;
+
+    .projects-img {
+      flex: 1;
+      position: relative;
+
+      .mobile-img {
+        position: absolute;
+        width: 24rem;
+        top: -1rem;
+        left: 10rem;
+      }
+
+      .desktop-img {
+        width: 75%;
+        margin-left: 20rem;
+        margin-top: 3rem;
+      }
+    }
+
+    .projects-info-wrap {
+      width: 52rem;
+      height: 50rem;
+      background-color: var(--color-sub);
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      .projects-info {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        margin: auto 0;
+        padding: 2rem 3rem;
+        @include flex-layout(column, center, end);
+        color: var(--color-primary);
+
+        h2 {
+          @include font-h4;
+        }
+
+        .projects-line {
+          width: 98%;
+          height: 1px;
+          background-color: var(--color-primary);
+          margin: 1rem 0;
+        }
+
+        h3 {
+          @include font-h4;
+          margin-bottom: 1rem;
+        }
+
+        .link-btn {
+          @include flex-layout;
+          gap: 1rem;
+
+          button {
+            @include btn;
+            margin-bottom: 0.5rem;
+          }
+        }
+
+        .projects-content {
+          width: 90%;
+          @include flex-layout(column, center, end);
+          text-align: right;
+          word-break: keep-all;
+
+          h4 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            margin-top: 1rem;
+            font-weight: 600;
+          }
+
+          p {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

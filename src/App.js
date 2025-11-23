@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.scss";
 
-function App() {
+import OverviewDream from "./Components/Overview/OverviewDream";
+import OverviewSodam from "./Components/Overview/OverviewSodam";
+import MainLayout from "./Components/MainLayout";
+import OverviewLittle from "./Components/Overview/OverviewLittle";
+import OverviewGG from "./Components/Overview/OverviewGG";
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter scrollRestoration="manual">
+      <Routes>
+        <Route path="/*" element={<MainLayout/>}/>
+        <Route path="/overviewLittle" element={<OverviewLittle/>}/>
+        <Route path="/overviewGG" element={<OverviewGG/>}/>
+        <Route path="/overviewDream" element={<OverviewDream/>}/>
+        <Route path="/overviewSodam" element={<OverviewSodam/>}/>
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,165 @@
+.overviewSodam {
+  width: 100%;
+  background-color: #1a1a19ce;
+  padding: 5rem 0;
+
+  .overview-Sodam {
+    width: 90%;
+    margin: auto auto;
+    height: 100%;
+    color: var(--color-primary);
+    background-color: var(--color-sub);
+    position: relative;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+
+    h1 {
+      @include font-h2;
+      color: var(--color-primary);
+      padding: 1.5rem 3rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--color-primary);
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 2;
+      font-weight: 600;
+      word-break: keep-all;
+      padding: 0.5rem 0;
+    }
+
+    ul {
+      @include font-body;
+      font-weight: 600;
+      word-break: keep-all;
+    }
+
+
+    .overview-project {
+      @include flex-layout;
+      padding-bottom: 8rem;
+      padding-top: 2rem;
+
+      .project-left {
+        flex: 1;
+        padding-left: 6rem;
+        line-height: 2;
+
+        li {
+          font-size: 1.5rem;
+          line-height: 2;
+        }
+      }
+
+      a {
+        width: 45%;
+
+        .overview-img {
+          width: 100%;
+
+          &:hover {
+            scale: 1.1;
+            transition: all 0.3s ease;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .design-title {
+      padding-top: 3rem;
+    }
+
+    .overview-design {
+      padding: 3rem 5rem;
+      line-height: 2;
+      padding-bottom: 5rem;
+
+      .design-color {
+        display: flex;
+        gap: 3rem;
+
+        .color {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin: 3rem 0;
+
+          &:hover {
+            scale: 1.1;
+            transition: all 0.3s ease;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .design-font {
+        padding: 2rem 0;
+        margin-bottom: 5rem;
+
+        .font {
+          font-family: 'Pretendard-Regular';
+          font-size: 2rem;
+          font-weight: bolder;
+        }
+
+        .font-title-wrap {
+          @include flex-layout(row, left);
+          gap: 2rem;
+        }
+
+        .Poppins {
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          margin-bottom: 1rem;
+        }
+
+        .Inter {
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          margin-bottom: 1rem;
+        }
+
+        li {
+          font-family: "Paperozi";
+          font-size: 1.5rem;
+          line-height: 2;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .overview-user {
+      width: 80%;
+      margin: 5rem auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .overview-solution {
+      height: 50rem;
+      padding: 2rem 6rem;
+      line-height: 2;
+
+      h2 {
+        padding: 0.5rem 0;
+      }
+
+      p {
+        padding: 1rem 0;
+      }
+
+      li {
+        font-size: 1.5rem;
+        line-height: 2;
+      }
+    }
+  }
+}

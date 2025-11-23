@@ -1,0 +1,87 @@
+[
+  {
+    "projectName": "LITTLE BLISS",
+    "projectType": "개인프로젝트",
+    "links": {
+      "overview": "/overviewLittle",
+      "github": "https://github.com/eun1013/littlebliss",
+      "site": "https://eun1013.github.io/littlebliss/"
+    },
+    "skillsUsed": [
+      "React, React-router, SCSS, Figma"
+    ],
+    "description": "Little Bliss는 React 기반으로 따뜻한 감성과 모바일 중심 반응형 UI/UX를 담아, 상품 상세 페이지에서 '이미지/상세 콘텐츠'와 '핵심 구매 정보'를 효율적으로 배치하여 시각적 만족도와 정보 탐색 편의성을 높인 아기 의류 쇼핑몰입니다",
+    "duration": "25년 10월 19일 ~ 25년 10월 28일 (10일 진행)",
+    "role": "지난 소담상점 쇼핑몰 프로젝트의 아쉬운 점을 녹여내 단독으로 진행하여 기획부터 디자인, 홈페이지 제작까지 완성하였습니다",
+    "images": {
+      "mobile": "/images/projects/main01.png",
+      "desktop": "/images/projects/main02.png",
+      "mobilealt" : "리틀 블리스 쇼핑몰 모바일 적용 예시 이미지",
+      "desktopalt" : "리틀 블리스 쇼핑몰 pc 적용 예시 이미지"
+    }
+  },
+  {
+    "projectName": "경축(경기도 축제)",
+    "projectType": "팀 프로젝트",
+    "links": {
+      "overview": "/overviewGG",
+      "github": "https://github.com/eun1013/ggfestival",
+      "site": "https://hyeswe10.github.io/ggfestival/"
+    },
+    "skillsUsed": [
+      "React, React-router, Supabase, SCSS, Figma"
+    ],
+    "description": "React 기반으로 직관적인 UI를 구현하여 진행 상태, 월별, 지역별 필터링, 거리순 정렬, 키워드 검색 등 다양한 기능을 통해 경기도 축제 정보를 효율적으로 탐색하게 돕는 플랫폼입니다",
+    "duration": "25년 8월 28일 ~ 25년 9월 26일 (약 한달 진행)",
+    "contributors": "5인 참여 팀 프로젝트",
+    "role": "축제 리스트 페이지(필터링, 정렬, 검색)를 구현하여 직관적인 UI/UX를 구축하고, Supabase 기반의 로그인/회원가입 API를 직접 개발하여 데이터 연동 환경을 마련했습니다",
+    "images": {
+      "mobile": "/images/projects/main03.png",
+      "desktop": "/images/projects/main04.png",
+      "mobilealt" : "경축 모바일 적용 예시 이미지",
+      "desktopalt" : "경축 모바일 적용 후 pc 적용 예시 이미지"
+    }
+  },
+  {
+    "projectName": "DREAMLAND PARKING",
+    "projectType": "팀 프로젝트",
+    "links": {
+      "overview": "/overviewDream",
+      "github": "https://github.com/eun1013/dreamland",
+      "site": "https://eun1013.github.io/dreamland/"
+    },
+    "skillsUsed": [
+      "React, React-router, Supabase, SCSS, Figma"
+    ],
+    "description": "React와 Supabase를 활용해 실시간 주차 현황과 예약 기능을 구현한 웹 기반 주차 관리/에약 시스템입니다",
+    "duration": "25년 7월 21일 ~ 25년 8월 4일 (약 2주 진행)",
+    "contributors": "5인 참여 팀 프로젝트",
+    "role": "시간제/일일권 및 결제 금액 계산 페이지를 맡아 제작하였습니다",
+    "images": {
+      "mobile": "/images/projects/main05.png",
+      "desktop": "/images/projects/main06.png",
+      "mobilealt" : "드림랜드 모바일 적용 예시 이미지",
+      "desktopalt" : "드림랜드 pc 적용 예시 이미지"
+    }
+  },
+  {
+    "projectName": "소담 상점",
+    "projectType": "팀 프로젝트",
+    "links": {
+      "overview": "/overviewSodam",
+      "github": "https://github.com/eun1013/sodamshop",
+      "site": "https://eun1013.github.io/sodamshop/"
+    },
+    "skillsUsed": ["React, React-router, SCSS, Figma"],
+    "description": "React를 기반으로, 그리드 형식의 직관적인 UI를 통해 상품 탐색부터 장바구니까지 편리한 쇼핑 경험을 제공하는 웹 기반 쇼핑몰입니다",
+    "duration": "25년 7월 7일 ~ 25년 7월 11일",
+    "contributors": "4인 참여 팀 프로젝트",
+    "role": "페이지 상단 및 배너, 시즌 상품, 상품 상세 페이지로 이동 파트를 맡아 제작하였습니다",
+    "images": {
+      "mobile": "/images/projects/main07.png",
+      "desktop": "/images/projects/main08.png",
+      "mobilealt" : "소담상점 모바일 적용 예시 이미지",
+      "desktopalt" : "소담상점 pc 적용 예시 이미지"
+    }
+  }
+]

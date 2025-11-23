@@ -1,0 +1,25 @@
+.cover {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-primary);
+    @include flex-layout(column);
+
+    img {
+        width: 100%;
+        margin: 5rem 0;
+    }
+
+    h3 {
+        color: var(--color-sub);
+        @include font-h3;
+        padding-bottom: 15rem;
+        text-align: center;
+    }
+
+    p {
+        color: var(--color-sub);
+        font-size: 1.5rem;
+        padding-right: 135rem;
+        padding-top: 2rem;
+    }
+}

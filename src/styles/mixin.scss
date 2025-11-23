@@ -1,0 +1,94 @@
+//플렉스
+@mixin flex-layout($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//폰트 믹스인 (사이즈, 굵기)
+@mixin font-h1 {
+    font-size: 12rem;
+    font-weight: 900;
+}
+
+@mixin font-h2 {
+    font-size: 9rem;
+    font-weight: 900;
+}
+
+@mixin font-h3 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+@mixin font-h4 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+@mixin font-body {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@mixin font-body-s{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+@mixin font-button {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+//버튼
+@mixin btn {
+    width: 13rem;
+    height: 4rem;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--color-primary);
+    color: var(--color-sub);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: inherit;
+
+    &:hover {
+        background-color: var(--color-sub);
+        color: var(--color-primary);
+        border: 1px solid var(--color-primary);
+        scale: 1.05;
+        transition: all 0.3s ease;
+    }
+}
+@mixin btn3 {
+    width: 18rem;
+    height: 4.5rem;
+    text-decoration: underline;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--color-sub);
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: inherit;
+
+    &:hover {
+        filter: brightness(65%);
+        scale: 1.1;
+        transition: all 0.3s ease;
+    }
+}
+
+@mixin btn2 {
+    width: 5.2rem;
+    height: 3rem;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--color-sub);
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: inherit;
+}
