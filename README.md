@@ -71,6 +71,6 @@ Supabase 기반의 로그인/회원가입 API를 직접 개발하여 데이터 �
 
 ✨ Contact Me!
 
-GitHub: [eun1013](https://github.com/eun1013/eun1013.github.io)
-Portfolio: 
+GitHub: [eun1013](https://github.com/eun1013)
+Portfolio: https://eun1013.github.io/portfolio2/
 e-mail: tjddms4248@naver.com
