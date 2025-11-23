@@ -11,7 +11,7 @@ const Close = () => {
                 <li>이름 : 장성은</li>
                 <li>연락처 : 010-2573-1101</li>
                 <li>GitHub : https://github.com/eun1013/eun1013.github.io</li>
-                <li>Portfolio : https://eun1013.github.io/portfolio/</li>
+                <li>Portfolio : https://eun1013.github.io/portfolio2/</li>
             </ul>
         </div>
     );
