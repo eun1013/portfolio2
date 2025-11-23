@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+사용자의 마음에 따뜻하게 공감하고 꼼꼼히 설계하는 웹퍼블리셔 장성은
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+안녕하세요! 저는 사용자 중심의 사고로 완성도를 추구하며, 협업과 소통을 통해 끊임없이 성장하는 웹퍼블리셔 장성은입니다. 
+무대 위 카타르시스를 웹에서 구현하고 싶다는 열정을 품고, 사용자의 불편함을 해소하고 긍정적인 경험을 선사하기 위해 끊임없이 고민하고 있습니다. 
 
-## Available Scripts
+<!-- 프로젝트 둘러보기 -->
 
-In the project directory, you can run:
+1. Little Bliss: 따뜻한 감성 유아동복 쇼핑몰 (개인 프로젝트)
+사용 기술: React, React-router, SCSS, Figma 
+한 줄 요약: React 기반으로 따뜻한 감성과 모바일 중심 반응형 UI/UX를 담아, 시각적 만족도와 정보 탐색 편의성을 높인 아기 의류 쇼핑몰
+제작 기간: 2025년 10월 19일 ~ 2025년 10월 28일 (10일 진행) 
+주요 기능: 따뜻하고 부드러운 감성의 UI/UX 디자인 구현 
+모바일 중심의 반응형 웹 구현 및 이미지/상세 콘텐츠, 핵심 구매 정보의 효율적 배치 
+지난 프로젝트 경험을 바탕으로 컴포넌트 재사용성을 적극 고려하여 기획부터 디자인, 개발, 배포까지 단독 진행 
 
-### `npm start`
+2. 경축(경기도 축제): 직관적인 축제 정보 플랫폼 (팀 프로젝트)
+사용 기술: React, React-router, Supabase, SCSS, Figma 
+한 줄 요약: React 기반 직관적인 UI를 통해 경기도 축제 정보를 효율적으로 탐색하게 돕는 플랫폼
+제작 기간: 2025년 8월 28일 ~ 2025년 9월 26일 (약 한 달 진행) 
+나의 기여:
+축제 리스트 페이지의 필터링, 정렬, 키워드 검색 기능을 구현하여 직관적인 UI/UX 구축 
+Supabase 기반의 로그인/회원가입 API를 직접 개발하여 데이터 연동 환경 마련 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. DREAMLAND PARKING: 웹 기반 주차 관리/예약 시스템 (팀 프로젝트)
+사용 기술: React, React-router, Supabase, SCSS, Figma 
+한 줄 요약: React와 Supabase를 활용해 실시간 주차 현황과 예약 기능을 구현한 웹 기반 주차 관리/예약 시스템
+제작 기간: 2025년 7월 21일 ~ 2025년 8월 4일 (약 2주 진행) 
+나의 기여: 시간제/일일권 및 결제 금액 계산 페이지를 맡아 제작 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. 소담 상점: 그리드 형식의 쇼핑몰 UI 구현 (팀 프로젝트)
+사용 기술: React, React-router, SCSS, Figma 
+한 줄 요약: React를 기반으로, 그리드 형식의 직관적인 UI를 통해 상품 탐색부터 장바구니까지 편리한 쇼핑 경험을 제공하는 웹 기반 쇼핑몰
+제작 기간: 2025년 7월 7일 ~ 2025년 7월 11일 
+나의 기여: 페이지 상단, 배너, 시즌 상품, 상품 상세 페이지로 이동 파트를 맡아 제작 
 
-### `npm test`
+<!-- 사용 기술 스택 -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Design
+ - Figma: 웹/모바일 UI/UX 디자인 주력 툴, 기획부터 와이어프레임, 프로토타이핑, 디자인 시스템 구축 및 협업 
+ - Adobe Photoshop: 웹 환경 이미지 편집 및 최적화 
+ - Adobe Illustrator: Figma 연동 벡터 에셋 제작 
 
-### `npm run build`
+* Front-end Development
+ - HTML, CSS, JavaScript: 웹 기본 기술 
+ - React: 컴포넌트 기반 UI 개발 
+ - SCSS: 효율적인 CSS 작성 및 모듈화된 스타일링 
+ - React-router: 클라이언트 측 라우팅 구현 
+ - GSAP: BlueProject에서 스크롤 인터랙션 및 동적 등장 효과 구현 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Back-end & Database
+ - Supabase: 로그인/회원가입 API 개발 및 데이터 연동 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Version Control
+ - Git, GitHub: 형상 관리 및 협업
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- 문제 해결 경험 및 성장 포인트 --> 
 
-### `npm run eject`
+프로젝트를 진행하며 마주했던 기술적 도전 과제들과 이를 해결하며 성장한 경험은 저의 가장 큰 자산입니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* 성장하는 개발자가 되기 위한 노력: 지난 '소담상점' 프로젝트에서 아쉬웠던 점(컴포넌트 재사용성 등)을 
+'Little Bliss'에서 보완하며 기획부터 디자인, 개발, 배포까지 전 과정을 단독으로 진행했습니다.  이는 저의 지속적인 성장 의지를 보여주는 경험입니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* 사용자 경험 중심의 개선:
+ - 이미지 로딩 속도 최적화: 웹 페이지의 로딩 속도 개선을 위해 이미지를 WebP 파일로 변환하고 lazy loading을 적용하여 사용자 경험을 향상시켰습니다.
+ - 라우팅 시 스크롤 문제 해결: 페이지 이동 시 스크롤 위치가 유지되지 않거나 잘못 복구되는 문제를 해결하기 위해 HashRouter를 사용하고 scrollTarget 관련 로직을 직접 구현하며   클라이언트 라우팅에 대한 이해도를 높였습니다.
+ - 반응형 및 디바이스 최적화: 모바일 중심의 반응형 디자인에 강점을 가지고 있으며, SCSS 믹신을 활용하여 효율적인 스타일링과 디바이스별 최적화 경험을 쌓았습니다.
+ - 협업 및 소통: 팀 프로젝트에서 Git을 활용한 브랜치 관리 및 상호 간 코드 리뷰를 통해 효율적인 협업 프로세스를 경험했습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 배우고 느낀 점
+이 모든 프로젝트를 통해 저는 단순히 코드를 작성하는 것을 넘어, '어떻게 하면 사용자가 더 편리하고 즐겁게 웹을 사용할 수 있을까?'에 대한 사용자 중심의 사고를 깊게 할 수 있었습니다. React 기반의 컴포넌트 설계부터 API 연동, 디자인과의 조화까지 웹 개발 전반에 대한 이해를 넓혔습니다. 빠르게 변화하는 웹 트렌드에 발맞춰 지속적으로 학습하고 새로운 기술에 도전하며, 사용자의 불편함을 해소하고 긍정적인 경험을 선사하기 위해 끊임없이 노력하는 웹퍼블리셔가 될 것입니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- ★Contact Me! -->
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: [eun1013](https://github.com/eun1013/eun1013.github.io)
+Portfolio: 
+e-mail: tjddms4248@naver.com
